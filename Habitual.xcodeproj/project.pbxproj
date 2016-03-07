@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2AE85A1C8E1A0C002C75DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE83E1C8E1A0C002C75DE /* AppDelegate.swift */; };
+		7D2AE85B1C8E1A0C002C75DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE83F1C8E1A0C002C75DE /* Assets.xcassets */; };
+		7D2AE85C1C8E1A0C002C75DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8401C8E1A0C002C75DE /* LaunchScreen.storyboard */; };
+		7D2AE85D1C8E1A0C002C75DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8421C8E1A0C002C75DE /* Main.storyboard */; };
+		7D2AE85E1C8E1A0C002C75DE /* CeldaConEtiqueta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8441C8E1A0C002C75DE /* CeldaConEtiqueta.swift */; };
+		7D2AE85F1C8E1A0C002C75DE /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8451C8E1A0C002C75DE /* Constantes.swift */; };
+		7D2AE8601C8E1A0C002C75DE /* contenido.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8461C8E1A0C002C75DE /* contenido.png */; };
+		7D2AE8611C8E1A0C002C75DE /* felicitaciones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8471C8E1A0C002C75DE /* felicitaciones.jpg */; };
+		7D2AE8621C8E1A0C002C75DE /* FinDeJuegoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8481C8E1A0C002C75DE /* FinDeJuegoVC.swift */; };
+		7D2AE8631C8E1A0C002C75DE /* gag0.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8491C8E1A0C002C75DE /* gag0.PNG */; };
+		7D2AE8641C8E1A0C002C75DE /* gag1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84A1C8E1A0C002C75DE /* gag1.PNG */; };
+		7D2AE8651C8E1A0C002C75DE /* gag2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84B1C8E1A0C002C75DE /* gag2.PNG */; };
+		7D2AE8661C8E1A0C002C75DE /* gag3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84C1C8E1A0C002C75DE /* gag3.PNG */; };
+		7D2AE8671C8E1A0C002C75DE /* gag4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84D1C8E1A0C002C75DE /* gag4.PNG */; };
+		7D2AE8681C8E1A0C002C75DE /* gag5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84E1C8E1A0C002C75DE /* gag5.PNG */; };
+		7D2AE8691C8E1A0C002C75DE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE84F1C8E1A0C002C75DE /* home.png */; };
+		7D2AE86A1C8E1A0C002C75DE /* inboxContenido.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8501C8E1A0C002C75DE /* inboxContenido.png */; };
+		7D2AE86C1C8E1A0C002C75DE /* instrucciones3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8521C8E1A0C002C75DE /* instrucciones3.png */; };
+		7D2AE86D1C8E1A0C002C75DE /* instrucciones4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8531C8E1A0C002C75DE /* instrucciones4.png */; };
+		7D2AE86E1C8E1A0C002C75DE /* JuegoRefreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8541C8E1A0C002C75DE /* JuegoRefreshVC.swift */; };
+		7D2AE86F1C8E1A0C002C75DE /* JuegoScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8551C8E1A0C002C75DE /* JuegoScrollVC.swift */; };
+		7D2AE8701C8E1A0C002C75DE /* JuegoTapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8561C8E1A0C002C75DE /* JuegoTapVC.swift */; };
+		7D2AE8711C8E1A0C002C75DE /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8571C8E1A0C002C75DE /* like.png */; };
+		7D2AE8721C8E1A0C002C75DE /* SeleccionDeNivelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AE8581C8E1A0C002C75DE /* SeleccionDeNivelVC.swift */; };
+		7D2AE8731C8E1A0C002C75DE /* tecladodummy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D2AE8591C8E1A0C002C75DE /* tecladodummy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DBCC09B1C5C6E770039BD90 /* Habitual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitual.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2AE83E1C8E1A0C002C75DE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D2AE83F1C8E1A0C002C75DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D2AE8411C8E1A0C002C75DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2AE8431C8E1A0C002C75DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D2AE8441C8E1A0C002C75DE /* CeldaConEtiqueta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaConEtiqueta.swift; sourceTree = "<group>"; };
+		7D2AE8451C8E1A0C002C75DE /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		7D2AE8461C8E1A0C002C75DE /* contenido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contenido.png; sourceTree = "<group>"; };
+		7D2AE8471C8E1A0C002C75DE /* felicitaciones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = felicitaciones.jpg; sourceTree = "<group>"; };
+		7D2AE8481C8E1A0C002C75DE /* FinDeJuegoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinDeJuegoVC.swift; sourceTree = "<group>"; };
+		7D2AE8491C8E1A0C002C75DE /* gag0.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag0.PNG; sourceTree = "<group>"; };
+		7D2AE84A1C8E1A0C002C75DE /* gag1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag1.PNG; sourceTree = "<group>"; };
+		7D2AE84B1C8E1A0C002C75DE /* gag2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag2.PNG; sourceTree = "<group>"; };
+		7D2AE84C1C8E1A0C002C75DE /* gag3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag3.PNG; sourceTree = "<group>"; };
+		7D2AE84D1C8E1A0C002C75DE /* gag4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag4.PNG; sourceTree = "<group>"; };
+		7D2AE84E1C8E1A0C002C75DE /* gag5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gag5.PNG; sourceTree = "<group>"; };
+		7D2AE84F1C8E1A0C002C75DE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		7D2AE8501C8E1A0C002C75DE /* inboxContenido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inboxContenido.png; sourceTree = "<group>"; };
+		7D2AE8511C8E1A0C002C75DE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2AE8521C8E1A0C002C75DE /* instrucciones3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrucciones3.png; sourceTree = "<group>"; };
+		7D2AE8531C8E1A0C002C75DE /* instrucciones4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrucciones4.png; sourceTree = "<group>"; };
+		7D2AE8541C8E1A0C002C75DE /* JuegoRefreshVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegoRefreshVC.swift; sourceTree = "<group>"; };
+		7D2AE8551C8E1A0C002C75DE /* JuegoScrollVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegoScrollVC.swift; sourceTree = "<group>"; };
+		7D2AE8561C8E1A0C002C75DE /* JuegoTapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JuegoTapVC.swift; sourceTree = "<group>"; };
+		7D2AE8571C8E1A0C002C75DE /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		7D2AE8581C8E1A0C002C75DE /* SeleccionDeNivelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeleccionDeNivelVC.swift; sourceTree = "<group>"; };
+		7D2AE8591C8E1A0C002C75DE /* tecladodummy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tecladodummy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DBCC0981C5C6E770039BD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBCC0921C5C6E770039BD90 = {
+			isa = PBXGroup;
+			children = (
+				7D2AE83D1C8E1A0C002C75DE /* Habitual */,
+				1DBCC09C1C5C6E770039BD90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DBCC09C1C5C6E770039BD90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBCC09B1C5C6E770039BD90 /* Habitual.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D2AE83D1C8E1A0C002C75DE /* Habitual */ = {
+			isa = PBXGroup;
+			children = (
+				7D2AE8471C8E1A0C002C75DE /* felicitaciones.jpg */,
+				7D2AE8591C8E1A0C002C75DE /* tecladodummy.jpg */,
+				7D2AE8511C8E1A0C002C75DE /* Info.plist */,
+				7D2AE8461C8E1A0C002C75DE /* contenido.png */,
+				7D2AE84F1C8E1A0C002C75DE /* home.png */,
+				7D2AE8501C8E1A0C002C75DE /* inboxContenido.png */,
+				7D2AE8521C8E1A0C002C75DE /* instrucciones3.png */,
+				7D2AE8531C8E1A0C002C75DE /* instrucciones4.png */,
+				7D2AE8571C8E1A0C002C75DE /* like.png */,
+				7D2AE8491C8E1A0C002C75DE /* gag0.PNG */,
+				7D2AE84A1C8E1A0C002C75DE /* gag1.PNG */,
+				7D2AE84B1C8E1A0C002C75DE /* gag2.PNG */,
+				7D2AE84C1C8E1A0C002C75DE /* gag3.PNG */,
+				7D2AE84D1C8E1A0C002C75DE /* gag4.PNG */,
+				7D2AE84E1C8E1A0C002C75DE /* gag5.PNG */,
+				7D2AE83E1C8E1A0C002C75DE /* AppDelegate.swift */,
+				7D2AE8441C8E1A0C002C75DE /* CeldaConEtiqueta.swift */,
+				7D2AE8451C8E1A0C002C75DE /* Constantes.swift */,
+				7D2AE8481C8E1A0C002C75DE /* FinDeJuegoVC.swift */,
+				7D2AE8541C8E1A0C002C75DE /* JuegoRefreshVC.swift */,
+				7D2AE8551C8E1A0C002C75DE /* JuegoScrollVC.swift */,
+				7D2AE8561C8E1A0C002C75DE /* JuegoTapVC.swift */,
+				7D2AE8581C8E1A0C002C75DE /* SeleccionDeNivelVC.swift */,
+				7D2AE83F1C8E1A0C002C75DE /* Assets.xcassets */,
+				7D2AE8401C8E1A0C002C75DE /* LaunchScreen.storyboard */,
+				7D2AE8421C8E1A0C002C75DE /* Main.storyboard */,
+			);
+			path = Habitual;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DBCC09A1C5C6E770039BD90 /* Habitual */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBCC0AD1C5C6E770039BD90 /* Build configuration list for PBXNativeTarget "Habitual" */;
+			buildPhases = (
+				1DBCC0971C5C6E770039BD90 /* Sources */,
+				1DBCC0981C5C6E770039BD90 /* Frameworks */,
+				1DBCC0991C5C6E770039BD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Habitual;
+			productName = GameJam2016;
+			productReference = 1DBCC09B1C5C6E770039BD90 /* Habitual.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DBCC0931C5C6E770039BD90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kyrie;
+				TargetAttributes = {
+					1DBCC09A1C5C6E770039BD90 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V44H323E4G;
+					};
+				};
+			};
+			buildConfigurationList = 1DBCC0961C5C6E770039BD90 /* Build configuration list for PBXProject "Habitual" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DBCC0921C5C6E770039BD90;
+			productRefGroup = 1DBCC09C1C5C6E770039BD90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DBCC09A1C5C6E770039BD90 /* Habitual */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DBCC0991C5C6E770039BD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2AE85D1C8E1A0C002C75DE /* Main.storyboard in Resources */,
+				7D2AE8661C8E1A0C002C75DE /* gag3.PNG in Resources */,
+				7D2AE86D1C8E1A0C002C75DE /* instrucciones4.png in Resources */,
+				7D2AE85B1C8E1A0C002C75DE /* Assets.xcassets in Resources */,
+				7D2AE85C1C8E1A0C002C75DE /* LaunchScreen.storyboard in Resources */,
+				7D2AE8641C8E1A0C002C75DE /* gag1.PNG in Resources */,
+				7D2AE8651C8E1A0C002C75DE /* gag2.PNG in Resources */,
+				7D2AE8731C8E1A0C002C75DE /* tecladodummy.jpg in Resources */,
+				7D2AE8711C8E1A0C002C75DE /* like.png in Resources */,
+				7D2AE86C1C8E1A0C002C75DE /* instrucciones3.png in Resources */,
+				7D2AE8601C8E1A0C002C75DE /* contenido.png in Resources */,
+				7D2AE8631C8E1A0C002C75DE /* gag0.PNG in Resources */,
+				7D2AE8691C8E1A0C002C75DE /* home.png in Resources */,
+				7D2AE8681C8E1A0C002C75DE /* gag5.PNG in Resources */,
+				7D2AE8671C8E1A0C002C75DE /* gag4.PNG in Resources */,
+				7D2AE8611C8E1A0C002C75DE /* felicitaciones.jpg in Resources */,
+				7D2AE86A1C8E1A0C002C75DE /* inboxContenido.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DBCC0971C5C6E770039BD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2AE8721C8E1A0C002C75DE /* SeleccionDeNivelVC.swift in Sources */,
+				7D2AE86F1C8E1A0C002C75DE /* JuegoScrollVC.swift in Sources */,
+				7D2AE85E1C8E1A0C002C75DE /* CeldaConEtiqueta.swift in Sources */,
+				7D2AE85A1C8E1A0C002C75DE /* AppDelegate.swift in Sources */,
+				7D2AE8621C8E1A0C002C75DE /* FinDeJuegoVC.swift in Sources */,
+				7D2AE86E1C8E1A0C002C75DE /* JuegoRefreshVC.swift in Sources */,
+				7D2AE85F1C8E1A0C002C75DE /* Constantes.swift in Sources */,
+				7D2AE8701C8E1A0C002C75DE /* JuegoTapVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D2AE8401C8E1A0C002C75DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2AE8411C8E1A0C002C75DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7D2AE8421C8E1A0C002C75DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D2AE8431C8E1A0C002C75DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBCC0AB1C5C6E770039BD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DBCC0AC1C5C6E770039BD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DBCC0AE1C5C6E770039BD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Habitual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.kyrie.habitual;
+				PRODUCT_NAME = Habitual;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1DBCC0AF1C5C6E770039BD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Habitual/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.kyrie.habitual;
+				PRODUCT_NAME = Habitual;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBCC0961C5C6E770039BD90 /* Build configuration list for PBXProject "Habitual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBCC0AB1C5C6E770039BD90 /* Debug */,
+				1DBCC0AC1C5C6E770039BD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBCC0AD1C5C6E770039BD90 /* Build configuration list for PBXNativeTarget "Habitual" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBCC0AE1C5C6E770039BD90 /* Debug */,
+				1DBCC0AF1C5C6E770039BD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DBCC0931C5C6E770039BD90 /* Project object */;
+}
