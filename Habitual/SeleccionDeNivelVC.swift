@@ -234,6 +234,7 @@ class SeleccionDeNivelVC : UIViewController
 	
 	func realizarAnimacion(indiceBoton1 : Int, indiceBoton2: Int)
 	{
+
 		ultimoIndiceBoton = indiceBoton2
 		
 		if(indiceBoton1 == indiceBoton2)
@@ -258,7 +259,6 @@ class SeleccionDeNivelVC : UIViewController
 		let tamanoPunto = CGFloat(8)
 		
 		let posInicial = c1
-//		let posFinal = c2
 		
 		let tDuracion = Double(1.5)
 		let tEntrePuntos = Double(0.05)
@@ -296,7 +296,7 @@ class SeleccionDeNivelVC : UIViewController
 		}
 		
 		
-		UIView.animateWithDuration(1.0, delay: tDuracion + tEntrePuntos * Double(nPuntos), options: .CurveEaseInOut, animations: { () -> Void in
+		UIView.animateWithDuration(1.0, delay: tDuracion + tEntrePuntos * Double(1), options: .CurveEaseInOut, animations: { () -> Void in
 			boton1.alpha = self.alphaBotonApagado
 
 		}, completion: { (completed) -> Void in })
@@ -314,24 +314,25 @@ class SeleccionDeNivelVC : UIViewController
 		
 		print("iniciar")
 		
-		
-		for boton in botones
-		{
-			boton.enabled = true
-			boton.alpha = self.alphaBotonApagado
-			boton.setTitle("", forState: .Normal)
-		}
-		
-		nivel = 0
-		tiempoInicioJuego = NSDate.timeIntervalSinceReferenceDate()
-		
 		let primerBoton = botones[secuenciaNiveles[nivel]]
 		primerBoton.setTitle("1", forState: .Normal)
 		
-		if comenzarJuego
+		if nivel != 0
 		{
+			for boton in botones
+			{
+				boton.enabled = true
+				boton.alpha = self.alphaBotonApagado
+				boton.setTitle("", forState: .Normal)
+			}
+			
+			nivel = 0
+			
 			primerBoton.alpha = 1.0
 		}
+		
+		tiempoInicioJuego = NSDate.timeIntervalSinceReferenceDate()
+
 		
 		comenzarJuego = true
 		// Animaciones
@@ -380,7 +381,7 @@ class SeleccionDeNivelVC : UIViewController
 
 			var mejorTiempo = userDefaults.doubleForKey(llaveMejorTiempo)
 			
-			if tiempoDeEsteJuego < mejorTiempo
+			if tiempoDeEsteJuego < mejorTiempo || userDefaults.objectForKey(llaveMejorTiempo) == nil
 			{
 				mejorTiempo = tiempoDeEsteJuego
 				userDefaults.setDouble(mejorTiempo, forKey: llaveMejorTiempo)

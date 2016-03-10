@@ -93,7 +93,7 @@ class JuegoTapVC : UIViewController
 		
 		let textos = [
 			"hola que tal ",
-			"jajajajaja no puede ser ",
+			"jajajajaja mira un easter egg ",
 			"ya mucho vicio tengo que irme "
 		]
 		

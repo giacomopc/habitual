@@ -33,8 +33,6 @@ class JuegoScrollVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
 		fase = delegate.fase
 		
 		tableView.contentInset = UIEdgeInsets(top: 5, left: 0, bottom: 0, right: 0)
-
-		determinarSegundosRestantes()
 		
 		let duracionJuego = [30, 45, 59]
 		segundosJuego = duracionJuego[fase]
@@ -42,6 +40,7 @@ class JuegoScrollVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
 		let celdasPorFase = [70, 70, 50]
 		nCeldas = celdasPorFase[fase]
 		
+		determinarSegundosRestantes()
 		
 		for _ in 0 ..< nCeldas
 		{
